@@ -1,0 +1,92 @@
+body {
+    font-size: 110%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+   opacity: 0.5px;
+   background-color: black;
+
+}
+
+p {
+    margin-top: 0px;
+    text-align:left;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    font-size: 2.5em;
+    font-style: italic;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 3px 3px 5px rgb(225, 11, 11);
+    animation-name: well;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-duration: 20s;
+    position: absolute;    
+}
+@keyframes well {
+    from { transform: translateX(1400px);}
+    to { transform: translateX(-1100px);}
+}
+
+#logo {
+height:50px;
+width: 1300px;
+background-color: rgba(223, 10, 10, 0.5);
+border: rgba(110, 30, 238,) 1px solid;
+border-radius: 10px;
+margin: 100px auto;
+position: absolute;
+}
+ul {
+   list-style-type: none;
+   
+}
+.lo {
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+li {
+    display: inline-block; 
+    margin: -5px auto;  
+}
+
+ul li a {
+    color: rgb(14, 13, 13);
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 5px 10px;
+   
+}
+a:hover,a.on {
+    color: rgba(228, 219, 219, 0.218);
+    background-color: rgb(250, 236, 240);   
+}
+#log {
+   
+    height: 350px;
+    width: 250px;
+    border: yellowgreen inset 10px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 140px;
+    padding: 0px; 
+    border-radius: 10px;  
+}
+#log form {
+    padding: 20px;
+    text-align: center;
+    
+}
+.input-feild{
+    outline-style: none;
+}
+span {
+    font-size: 12px;
+    color: white;
+}
+.social-icon img.links {
+   
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+}
